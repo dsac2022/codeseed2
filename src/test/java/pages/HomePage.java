@@ -10,7 +10,7 @@ public class HomePage {
 
 	WebDriver driver;
 	WebElement firstName1;
-	WebElement radioBtn;
+	WebElement radioBtn1;
 	WebElement dateOfBirth;
 	WebElement chekckBox;
 	WebElement uploadFile;
@@ -30,11 +30,11 @@ public class HomePage {
 	}
 
 	public WebElement getRadioBtn() {
-		return radioBtn;
+		return radioBtn1;
 	}
 
 	public void setRadioBtn() {
-		this.radioBtn = driver.findElement(By.xpath("//input[@id='gender-radio-1']"));
+		this.radioBtn1 = driver.findElement(By.xpath("//input[@id='gender-radio-1']"));
 	}
 
 	public WebElement getDateOfBirth() {
