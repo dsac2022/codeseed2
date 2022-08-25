@@ -16,6 +16,7 @@ public class HomePage {
 	WebElement uploadFile;
 
 	
+	//this is constructor
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 	}

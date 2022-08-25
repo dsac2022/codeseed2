@@ -25,8 +25,8 @@ public class HomepageTest {
 	@Test
 	public void verifyFormElement() throws InterruptedException {
 
-		homepage.setFirstName();
-		homepage.getFirstName().sendKeys("UserName");
+		homepage.setFirstName1();
+		homepage.getFirstName1().sendKeys("UserName");
 		homepage.setRadioBtn();
 		//homepage.getRadioBtn().click();
 		Utility.clickUsingJavaScript(homepage.getRadioBtn(), driver);
